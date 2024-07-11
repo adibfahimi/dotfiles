@@ -1,0 +1,27 @@
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+# import = ["~/.config/alacritty/tokyo-night.toml"]
+
+working_directory = "/Users/adib/Desktop/dev"
+# live_config_reload = false
+
+
+[window]
+# blur = true
+# opacity = 0.90
+startup_mode = "Maximized"
+option_as_alt = "Both"
+# padding = { x = 2, y = 2 }
+
+[colors.primary]
+background = "#00060b"
+
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+size = 19
+
+[cursor]
+style = { shape = "Beam" }
